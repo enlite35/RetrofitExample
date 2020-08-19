@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title1"
+
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_purple"
+        android:text="Поединок с Роботом"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/title1"
+        android:id="@+id/title2"
+
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="игра на знание правил дорожного движения"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/title2"
+        android:id="@+id/title3"
+
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="У вас есть три жизни\n ваша задача обыграть бота используя свои знания"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/title4"
+        android:layout_marginTop="35dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_green_light"
+        android:text="когда будете готовы\n нажмите на экран"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

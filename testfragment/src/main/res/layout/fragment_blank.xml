@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <TextView
+       android:id="@+id/textView_fragment"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"
+       android:textSize="28dp"
+       android:textColor="@android:color/holo_red_dark"
+       android:layout_marginStart="16dp"
+       android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/playerText"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/button_fragment"
+        android:text="player"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/robotText"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/button_fragment"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="robot"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/button_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Продолжить"/>
+
+</RelativeLayout>
